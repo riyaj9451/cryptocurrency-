@@ -1,0 +1,33 @@
+.content__screen{
+  max-width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto 25%;
+  overflow: scroll;
+  
+}
+
+.main__dash, .right_sidebar{
+  max-width: 100%;
+  height: 100%;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .content__screen{
+    max-width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .main__dash{
+    width: 100%;
+  }
+
+  .right_sidebar{
+    display: none;
+  }
+}

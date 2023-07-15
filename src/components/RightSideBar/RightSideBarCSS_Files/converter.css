@@ -1,0 +1,16 @@
+.converter_section {
+  /* background-color: rgb(57, 155, 96); */
+  margin: 10px;
+}
+.converter_section input {
+  padding: 10px;
+  border-radius: 10px 0px 0px 10px;
+}
+.converter_section input:focus {
+  border: 0;
+  outline: none;
+}
+.inside_converter_section_1 {
+  display: flex;
+  margin-bottom: 4%;
+}
